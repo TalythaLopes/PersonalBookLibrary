@@ -1,6 +1,6 @@
 <template>
   <v-app>
-     <v-main :style="{ backgroundColor: getBackgroundColor() }">
+    <v-main :style="{ backgroundColor: getBackgroundColor() }">
       <v-container>
         <RouterView />
       </v-container>
