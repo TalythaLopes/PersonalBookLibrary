@@ -1,13 +1,13 @@
-import InicialView from '@/views/InicialView.vue';
-import LoginView from '@/views/LoginView.vue';
-import RegisterView from '@/views/RegisterView.vue';
-import CitationView from '@/views/CitationView.vue';
-import TimelineView from '@/views/TimelineView.vue';
-import SearchView from '@/views/SearchView.vue';
-import ProfileView from '@/views/ProfileView.vue';
-import LibraryView from '@/views/LibraryView.vue';
-import MenuView from '@/views/MenuView.vue';
-import BookDetailView from '@/views/BookDetailView.vue';
+import InicialView from '@/views/init/InicialView.vue';
+import LoginView from '@/views/auth/LoginView.vue';
+import RegisterView from '@/views/auth/RegisterView.vue';
+import CitationView from '@/views/init/CitationView.vue';
+import TimelineView from '@/views/bottomNavBar/TimelineView.vue';
+import SearchView from '@/views/bottomNavBar/SearchView.vue';
+import ProfileView from '@/views/profile/ProfileView.vue';
+import LibraryView from '@/views/profile/LibraryView.vue';
+import MenuView from '@/views/bottomNavBar/MenuView.vue';
+import BookDetailView from '@/views/book/BookDetailView.vue';
 import { createRouter, createWebHistory } from 'vue-router';
 
 

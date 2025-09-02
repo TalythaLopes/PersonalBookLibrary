@@ -1,858 +1,1142 @@
 {
-    "quotes": [
+  "quotes": [
+    {
+      "text": "Não era mais uma menina com um livro: era uma mulher com seu amante.",
+      "author": "Clarice Lispector",
+      "id": "91bb"
+    },
+    {
+      "text": "O amor é uma ação, nunca simplesmente um sentimento.",
+      "author": "bell hooks",
+      "id": "9516"
+    },
+    {
+      "text": "Lutei pelo justo, pelo bom e pelo melhor do mundo.",
+      "author": "Olga Benário",
+      "id": "73b4"
+    },
+    {
+      "text": "O indivíduo não pode explicar-se a si mesmo, somente por razões biológicas. Viver, trabalhar, comunicar-se, pensar, não pode ocorrer a não ser em comunidade com outros seres.",
+      "author": "Ana Montenegro",
+      "id": "ede4"
+    },
+    {
+      "text": "Será que os vagalumes brilham de dor? Se eu pudesse brilhar de dor, eu seria um escândalo.",
+      "author": "Mariana Salomão Carrara",
+      "id": "a26c"
+    },
+    {
+      "text": "A caça às bruxas nunca terminou, mas as mulheres também nunca deixaram de resistir.",
+      "author": "Silvia Federici",
+      "id": "db0b"
+    },
+    {
+      "text": "Meu nome não é a dúvida e o desvio que você cogita antes de decidir pela rota certa e segura.",
+      "author": "Gení Nunes",
+      "id": "f5ac"
+    },
+    {
+      "text": "O cansaço nos uniu, uma única irmandade de mulheres ligadas pela exaustão.",
+      "author": "Elisama Santos",
+      "id": "d0b4"
+    },
+    {
+      "text": "Você nunca tem completamente seus direitos, individualmente, até que todos tenham.",
+      "author": "Marsha P. Johnson",
+      "id": "0e66"
+    },
+    {
+      "text": "[a felicidade é] uma abstração cuja busca obsessiva é ótima para produzir ansiedade e frustração.",
+      "author": "Laerte",
+      "id": "2fee"
+    }
+  ],
+  "users": [
+    {
+      "id": "101",
+      "nome": "Adam Carlsen",
+      "email": "adam@email.com",
+      "username": "adamcarlsen",
+      "senha": "adamcarlsen123",
+      "tentativas": 0,
+      "avatar": "https://i.pinimg.com/236x/1f/43/6b/1f436b55c6492973f51ea5afa0dcfe25.jpg",
+      "amigos": [
+        102
+      ],
+      "estante": [
         {
-            "text": "Não era mais uma menina com um livro: era uma mulher com seu amante.",
-            "author": "Clarice Lispector"
+          "livroId": 501,
+          "categoria": [
+            "lido",
+            "favoritado"
+          ],
+          "nota": "5"
         },
         {
-            "text": "O amor é uma ação, nunca simplesmente um sentimento.",
-            "author": "bell hooks"
+          "livroId": 504,
+          "categoria": [
+            "quero ler"
+          ],
+          "nota": ""
         },
         {
-            "text": "Lutei pelo justo, pelo bom e pelo melhor do mundo.",
-            "author": "Olga Benário"
-        },
-        {
-            "text": "O indivíduo não pode explicar-se a si mesmo, somente por razões biológicas. Viver, trabalhar, comunicar-se, pensar, não pode ocorrer a não ser em comunidade com outros seres.",
-            "author": "Ana Montenegro"
-        },
-        {
-            "text": "Será que os vagalumes brilham de dor? Se eu pudesse brilhar de dor, eu seria um escândalo.",
-            "author": "Mariana Salomão Carrara"
-        },
-        {
-            "text": "A caça às bruxas nunca terminou, mas as mulheres também nunca deixaram de resistir.",
-            "author": "Silvia Federici"
-        },
-        {
-            "text": "Meu nome não é a dúvida e o desvio que você cogita antes de decidir pela rota certa e segura.",
-            "author": "Gení Nunes"
-        },
-        {
-            "text": "O cansaço nos uniu, uma única irmandade de mulheres ligadas pela exaustão.",
-            "author": "Elisama Santos"
-        }   
-    ],
-    "users": [
-        {
-            "id": 101,
-            "nome": "Adam Carlsen",
-            "avatar": "https://i.pinimg.com/236x/1f/43/6b/1f436b55c6492973f51ea5afa0dcfe25.jpg",
-            "amigos": [102],
-            "estante": [
-                {
-                "livroId": 501,
-                "categoria": ["lido", "favoritado"],
-                "nota": "5"
-                },
-                {
-                "livroId": 504,
-                "categoria": ["quero ler"],
-                "nota": ""
-                },
-                {
-                "livroId": 505,
-                "categoria": ["abandonado"],
-                "nota": ""
-                }
-            ]
-        },
-        {
-            "id": 102,
-            "nome": "Olive Smith",
-            "avatar": "https://i.pinimg.com/474x/94/95/3f/94953f415ae241469c5482548029fc8e.jpg",
-            "amigos": [101, 112, 122, 132],
-            "estante": [
-                {
-                "livroId": 501,
-                "categoria": ["lido", "favoritado"],
-                "nota": "4.5"
-                },
-                {
-                "livroId": 502,
-                "categoria": ["lido"],
-                "nota": "5"
-                },
-                {
-                "livroId": 503,
-                "categoria": ["lido"],
-                "nota": "5"
-                },
-                {
-                "livroId": 504,
-                "categoria": ["quero ler"],
-                "nota": ""
-                },
-                {
-                "livroId": 505,
-                "categoria": ["lendo"],
-                "nota": ""
-                },
-                {
-                "livroId": 506,
-                "categoria": ["lido"],
-                "nota": "5"
-                },
-                {
-                "livroId": 507,
-                "categoria": ["lendo"],
-                "nota": ""
-                }
-            ]
-        },
-        {
-            "id": 111,
-            "nome": "Levi Ward",
-            "avatar": "https://i.pinimg.com/474x/07/91/89/079189b631201f5adf58b81f41ec92a6.jpg",
-            "amigos": [112, 101, 121, 131],
-            "estante": [
-                {
-                "livroId": 502,
-                "categoria": ["lido", "favoritado"],
-                "nota": "5"
-                },
-                {
-                "livroId": 506,
-                "categoria": ["quero ler"],
-                "nota": ""
-                }
-            ]
-        },
-        {
-            "id": 112,
-            "nome": "Bee Königswasser",
-            "avatar": "https://i.pinimg.com/564x/bd/98/50/bd98502e3d9886fcca9493d5a059fba6.jpg",
-            "amigos": [111, 102, 122, 132],
-            "estante": [
-                {
-                "livroId": 502,
-                "categoria": ["lido", "favoritado"],
-                "nota": "5"
-                },
-                {
-                "livroId": 506,
-                "categoria": ["lido", "favoritado"],
-                "nota": "5"
-                },
-                {
-                "livroId": 503,
-                "categoria": ["lendo"],
-                "nota": ""
-                },
-                {
-                "livroId": 501,
-                "categoria": ["quero ler"],
-                "nota": ""
-                },
-                {
-                "livroId": 504,
-                "categoria": ["lido"],
-                "nota": "4"
-                },
-                {
-                "livroId": 505,
-                "categoria": ["lido"],
-                "nota": "2.5"
-                },
-                {
-                "livroId": 507,
-                "categoria": ["lido"],
-                "nota": "0.5"
-                }
-            ]
-        },
-        {
-            "id": 121,
-            "nome": "Jack Smith-Turner",
-            "avatar": "https://i.pinimg.com/736x/1a/73/b7/1a73b7e23b04af894a6e475858c25c9a.jpg",
-            "amigos": [122, 101, 102, 111, 112, 131, 132],
-            "estante": [
-                {
-                "livroId": 503,
-                "categoria": ["lido", "favoritado"],
-                "nota": "5"
-                },
-                {
-                "livroId": 502,
-                "categoria": ["quero ler"],
-                "nota": ""
-                },
-                {
-                "livroId": 501,
-                "categoria": ["quero ler"],
-                "nota": ""
-                },
-                {
-                "livroId": 506,
-                "categoria": ["lendo"],
-                "nota": ""
-                }
-            ]
-        },
-        {
-            "id": 122,
-            "nome": "Elsie Hannaway",
-            "avatar": "https://i.pinimg.com/564x/94/c2/99/94c2990b0fe9d81740a4f9b0459beda7.jpg",
-            "amigos": [121, 102, 112, 132],
-            "estante": [
-                {
-                "livroId": 503,
-                "categoria": ["lido", "favoritado"],
-                "nota": "5"
-                }
-            ]
-        },
-        {
-            "id": 131,
-            "nome": "Eli Killgore",
-            "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSIlJgVrEC3nfNgiV8XkPC138uL1cm51lthw&s",
-            "amigos": [132, 121],
-            "estante": [
-                {
-                "livroId": 506,
-                "categoria": ["lido", "favoritado"],
-                "nota": "4"
-                },
-                {
-                "livroId": 503,
-                "categoria": ["lido"],
-                "nota": "4.5"
-                },
-                {
-                "livroId": 504,
-                "categoria": ["abandonado"],
-                "nota": ""
-                },
-                {
-                "livroId": 505,
-                "categoria": ["abandonado"],
-                "nota": ""
-                },
-                {
-                "livroId": 507,
-                "categoria": ["abandonado"],
-                "nota": ""
-                },
-                {
-                "livroId": 501,
-                "categoria": ["quero ler"],
-                "nota": ""
-                },
-                {
-                "livroId": 502,
-                "categoria": ["lendo"],
-                "nota": ""
-                }
-            ]
-        },
-        {
-            "id": 132,
-            "nome": "Rue Siebert",
-            "avatar": "https://i.pinimg.com/736x/a8/a2/9a/a8a29a7063aa900bcd943d9194c4d835.jpg",
-            "amigos": [131, 102, 112, 122],
-            "estante": [
-                {
-                "livroId": 506,
-                "categoria": ["lido", "favoritado"],
-                "nota": "1"
-                },
-                {
-                "livroId": 503,
-                "categoria": ["lido"],
-                "nota": "4.5"
-                },
-                {
-                "livroId": 501,
-                "categoria": ["lido"],
-                "nota": "4.5"
-                },
-                {
-                "livroId": 502,
-                "categoria": ["lido"],
-                "nota": "5"
-                },
-                {
-                "livroId": 507,
-                "categoria": ["quero ler"],
-                "nota": ""
-                }
-            ]
+          "livroId": 505,
+          "categoria": [
+            "abandonado"
+          ],
+          "nota": ""
         }
-    ],
-    "books": [
+      ]
+    },
+    {
+      "id": "102",
+      "nome": "Olive Smith",
+      "email": "olive@email.com",
+      "username": "olivesmith",
+      "senha": "olivesmith123",
+      "tentativas": 0,
+      "avatar": "https://i.pinimg.com/474x/94/95/3f/94953f415ae241469c5482548029fc8e.jpg",
+      "amigos": [
+        101,
+        112,
+        122,
+        132
+      ],
+      "estante": [
         {
-            "id": 501,
-            "titulo": "A Hipótese do Amor",
-            "autor": "Ali Hazelwood",
-            "capa": "https://m.media-amazon.com/images/I/81LTEfXYgcL.jpg",
-            "sinopse": "Quando um relacionamento falso entre cientistas encontra a irresistível força da atração, as teorias de uma mulher sobre o amor, cuidadosamente calculadas, são postas à prova. Olive Smith, uma estudante de doutoramento em Biologia, não acredita em namoros duradouros.",
-            "nota": "4.4",
-            "ano": "2022",
-            "isbn": "978-9899096424",
-            "qtdPaginas": "344"
+          "livroId": 501,
+          "categoria": [
+            "lido",
+            "favoritado"
+          ],
+          "nota": "4.5"
         },
         {
-            "id": 502,
-            "titulo": "A Razão do Amor",
-            "autor": "Ali Hazelwood",
-            "capa": "https://m.media-amazon.com/images/I/81bkmJnflPL.jpg",
-            "sinopse": "No novo livro da autora best-seller de A hipótese de amor , uma cientista será obrigada a colaborar com seu rival em um projeto de proporções interestelares, e os resultados prometem ser explosivos.",
-            "nota": "4.2",
-            "ano": "2022",
-            "isbn": "978-6555653991",
-            "qtdPaginas": "336"
+          "livroId": 502,
+          "categoria": [
+            "lido"
+          ],
+          "nota": "5"
         },
         {
-            "id": 503,
-            "titulo": "Amor, teoricamente",
-            "autor": "Ali Hazelwood",
-            "capa": "https://m.media-amazon.com/images/I/81vNIEwyS9L._AC_UF1000,1000_QL80_DpWeblab_.jpg",
-            "sinopse": "Dois físicos rivais colidem em meio a um turbilhão de disputas acadêmicas e caóticos namoros de mentira nesta nova comédia romântica da autora de A hipótese do amor. Elsie Hannaway é uma física teórica que passou anos de sua vida moldando diferentes versões de si mesma. Em alguns dias, ela trabalha como professora adjunta, na esperança de conseguir um emprego melhor. Em outros, compensa seu ridículo salário oferecendo serviços de namorada de mentira, aproveitando sua habilidade de se adaptar exatamente ao que os outros querem dela. Apesar das dificuldades, ela consegue equilibrar bem seu cuidadoso “Elsie-verso”... até que ele começa a desabar. E o culpado é Jack Smith, o irritante e atraente irmão mais velho de seu cliente favorito, que acaba se revelando um importante físico experimental e um possível obstáculo para o emprego dos sonhos de Elsie. Ela está pronta para uma guerra declarada de sabotagens acadêmicas, mas não está nem um pouco preparada para aqueles olhares demorados e penetrantes. E logo ela percebe que não precisa fingir ser outra pessoa quando está com Jack. Será que ser atraída pela órbita de um cientista vai enfim fazê-la colocar em prática suas mais secretas teorias sobre o amor? ",
-            "nota": "4.2",
-            "ano": "2023",
-            "isbn": "978-1408725795",
-            "qtdPaginas": "384"
-        },{
-            "id": 504,
-            "titulo": "Xeque-mate",
-            "autor": "Ali Hazelwood",
-            "capa": "https://m.media-amazon.com/images/I/81O6eWVPaiL.jpg",
-            "sinopse": "Mallory Greenleaf não quer mais saber de xadrez. Desde que abandonou o esporte há quatro anos, se preocupa apenas em manter o emprego medíocre numa oficina mecânica para conseguir cuidar da mãe doente e das irmãs mais novas. Tudo muda quando ela se obriga a participar de um torneio beneficente e, sem querer, derrota o atual campeão mundial, Nolan Sawyer.",
-            "nota": "4.1",
-            "ano": "2023",
-            "isbn": "978-6555655742",
-            "qtdPaginas": "336"
-        },{
-            "id": 505,
-            "titulo": "Noiva",
-            "autor": "Ali Hazelwood",
-            "capa": "https://m.media-amazon.com/images/I/812RDxFDd8L._AC_UF1000,1000_QL80_DpWeblab_.jpg",
-            "sinopse": "Misery Lark, filha do vampiro mais poderoso do sudoeste, nunca foi bem-vista pelos seres de sua espécie. Ela passa seus dias anonimamente em meio aos humanos, isolada, até que é chamada para firmar um acordo de paz entre vampiros e licanos, seus inimigos mortais. Para isso, será obrigada a se casar com Lowe Moreland.",
-            "nota": "4.2",
-            "ano": "2024",
-            "isbn": "978-6555656039",
-            "qtdPaginas": "368"
-        },{
-            "id": 506,
-            "titulo": "Não é amor",
-            "autor": "Ali Hazelwood",
-            "capa": "https://m.media-amazon.com/images/I/71i-HM1ZrlL.jpg",
-            "sinopse": "Neste romance secreto e proibido, Ali Hazelwood prova que, no amor e na ciência, vale tudo. A vida de Rue Siebert não é perfeita, mas ela tem alguns poucos amigos leais e uma carreira de sucesso como engenheira de biotecnologia na Kline, uma das mais promissoras startups no campo da ciência dos alimentos.",
-            "nota": "3.9",
-            "ano": "2024",
-            "isbn": "978-6555656480",
-            "qtdPaginas": "368"
-        },{
-            "id": 507,
-            "titulo": "No Fundo é Amor",
-            "autor": "Ali Hazelwood",
-            "capa": "https://m.media-amazon.com/images/I/81XvsucSLVL._AC_UF1000,1000_QL80_DpWeblab_.jpg",
-            "sinopse": "Scarlett Vandermeer está nadando contra a corrente, tentando equilibrar os estudos com a rotina de atleta. Concentrada em passar para a faculdade de medicina e se recuperar da lesão que quase deu fim à sua carreira nos saltos ornamentais, ela prefere levar uma vida discreta. Não tem tempo para relacionamentos. Ou pelo menos é o que diz para si mesma. Garoto de ouro da natação, Lukas Blomqvist é capitão da equipe da universidade e campeão mundial, e conquistou tudo isso com muita disciplina. É assim que ele consegue medalhas e quebra recordes: com foco total a cada braçada. Na superfície, Lukas e Scarlett não têm nada em comum. Até que um segredo vem à tona, e tudo muda.",
-            "nota": "4.1",
-            "ano": "2025",
-            "isbn": "978-6555657593",
-            "qtdPaginas": "464"
+          "livroId": 503,
+          "categoria": [
+            "lido"
+          ],
+          "nota": "5"
+        },
+        {
+          "livroId": 504,
+          "categoria": [
+            "quero ler"
+          ],
+          "nota": ""
+        },
+        {
+          "livroId": 505,
+          "categoria": [
+            "lendo"
+          ],
+          "nota": ""
+        },
+        {
+          "livroId": 506,
+          "categoria": [
+            "lido"
+          ],
+          "nota": "5"
+        },
+        {
+          "livroId": 507,
+          "categoria": [
+            "lendo"
+          ],
+          "nota": ""
         }
-    ],
-    "timeline": [
+      ]
+    },
+    {
+      "id": "111",
+      "nome": "Levi Ward",
+      "email": "levi@email.com",
+      "username": "leviward",
+      "senha": "leviward123",
+      "tentativas": 0,
+      "avatar": "https://i.pinimg.com/474x/07/91/89/079189b631201f5adf58b81f41ec92a6.jpg",
+      "amigos": [
+        112,
+        101,
+        121,
+        131
+      ],
+      "estante": [
         {
-            "tipo": "2",
-            "usuario_id": 101,
-            "livro_id": 501,
-            "data": "2022-04-13T08:30:00Z",
-            "conteudo": {
-                "texto": "Faria tudo de novo.",
-                "progresso": "Concluiu a leitura"
-            },
-            "likes": "3",
-            "comments": [
-                {
-                    "userId": 102,
-                    "texto": "tudo TUDO?"
-                }
-            ]
-        },{
-            "tipo": "2",
-            "usuario_id": 102,
-            "livro_id": 501,
-            "data": "2022-04-13T15:30:00Z",
-            "conteudo": {
-                "texto": "Que protagonista burra (autocrítica).",
-                "progresso": "Concluiu a leitura"
-            },
-            "likes": "1",
-            "comments": [
-                {
-                    "userId": 101,
-                    "texto": "Você fala isso pela lerdeza, por usar lentes de contato vencida ou por gostar ela de uma bebida de abóbora?"
-                },{
-                    "userId": 132,
-                    "texto": "Amg, cê foi mesmo que raiva de vocE (com amor)"
-                }
-            ]
-        },{
-            "tipo": "2",
-            "usuario_id": 132,
-            "livro_id": 501,
-            "data": "2024-12-25T00:42:24Z",
-            "conteudo": {
-                "texto": "O Adam precisa urgentemente de amigos melhores.",
-                "progresso": "Concluiu a leitura"
-            },"likes": "5",
-            "comments": [
-                {
-                    "userId": 101,
-                    "texto": "Pior que é"
-                },{
-                    "userId": 102,
-                    "texto": "SIM SIM SIM SIM SIM"
-                }
-            ]
-        },{
-            "tipo": "3",
-            "usuario_id": 112,
-            "livro_id": 501,
-            "data": "2022-08-23T18:18:18Z",
-            "conteudo": {},
-            "likes": "1",
-            "comments": []
-        },{
-            "tipo": "3",
-            "usuario_id": 121,
-            "livro_id": 501,
-            "data": "2023-07-31T12:40:24Z",
-            "conteudo": {},
-            "likes": "0",
-            "comments": []
-        },{
-            "tipo": "3",
-            "usuario_id": 131,
-            "livro_id": 501,
-            "data": "2024-06-13T20:02:22Z",
-            "conteudo": {},
-            "likes": "1",
-            "comments": []
-        },{
-            "tipo": "2",
-            "usuario_id": 101,
-            "livro_id": 502,
-            "data": "2022-08-30T22:20:24Z",
-            "conteudo": {
-                "texto": "Será que a Bee tá bem ou ela desmaiou.",
-                "progresso": "Concluiu a leitura"
-            },
-            "likes": "1",
-            "comments": [
-                {
-                    "userId": 112,
-                    "texto": "haha adam, haha"
-                }
-            ]
-        },{
-            "tipo": "2",
-            "usuario_id": 111,
-            "livro_id": 502,
-            "data": "2022-08-23T12:37:24Z",
-            "conteudo": {
-                "texto": "O melhor livro já escrito no mundo e quem discorda é invejoso.",
-                "progresso": "Concluiu a leitura"
-            },
-            "likes": "3",
-            "comments": [
-                {
-                    "userId": 112,
-                    "texto": "sz"
-                },{
-                    "userId": 132,
-                    "texto": "UM HOMEM APAIXONADO MEUS AMIGOS"
-                }
-            ]
-        },{
-            "tipo": "2",
-            "usuario_id": 112,
-            "livro_id": 502,
-            "data": "2022-08-23T23:37:24Z",
-            "conteudo": {
-                "texto": "Foi tão patética a cena do donuts vegano mds como pode.",
-                "progresso": "Concluiu a leitura"
-            },
-            "likes": "1",
-            "comments": [
-                {
-                    "userId": 111,
-                    "texto": "amor..."
-                },{
-                    "userId": 132,
-                    "texto": "eu ri muito amg foi perfeita eu imagino a sua cara de odio kajskajskjas"
-                },{
-                    "userId": 121,
-                    "texto": "SEM SPOILER"
-                },{
-                    "userId": 102,
-                    "texto": "preciso ler urgentemente"
-                }
-            ]
-        },{
-            "tipo": "3",
-            "usuario_id": 121,
-            "livro_id": 502,
-            "data": "2023-08-30T17:01:17Z",
-            "conteudo": {},
-            "likes": "0",
-            "comments": []
-        },{
-            "tipo": "1",
-            "usuario_id": 131,
-            "livro_id": 502,
-            "data": "2024-06-28T16:20:24Z",
-            "conteudo": {
-                "texto": "Lendo porque a Rue adora ese aqui.",
-                "progresso": "2%"
-            },
-            "likes": "3",
-            "comments": []
-        },{
-            "tipo": "2",
-            "usuario_id": 132,
-            "livro_id": 502,
-            "data": "2024-06-28T02:37:24Z",
-            "conteudo": {
-                "texto": "O cuidado do Levi com a Bee é A COISA MAIS LINDA DO MUNDO.",
-                "progresso": "Concluiu a leitura"
-            },
-            "likes": "1",
-            "comments": [
-                {
-                    "userId": 121,
-                    "texto": "QUANTO SPOILEEER"
-                },{
-                    "userId": 102,
-                    "texto": "PRECISO LER URGENTEMENTE!!!"
-                }
-            ]
-        },{
-            "tipo": "2",
-            "usuario_id": 102,
-            "livro_id": 503,
-            "data": "2023-08-28T20:20:24Z",
-            "conteudo": {
-                "texto": "Elsie tentando fingir que sentimentos seguem leis da física? Amiga, eu tentei o mesmo com biologia. Spoiler: não funciona.",
-                "progresso": "Concluiu a leitura"
-            },
-            "likes": "3",
-            "comments": []
-        },{
-            "tipo": "1",
-            "usuario_id": 112,
-            "livro_id": 503,
-            "data": "2023-08-31T22:20:24Z",
-            "conteudo": {
-                "texto": "Alguém precisa avisar a Elsie que você pode ser racional e ainda assim merecer ser amada. A ciência não exclui o afeto.",
-                "progresso": "37%"
-                
-            },
-            "likes": "3",
-            "comments": []
-        },{
-            "tipo": "1",
-            "usuario_id": 112,
-            "livro_id": 503,
-            "data": "2023-09-01T01:47:24Z",
-            "conteudo": {
-                "texto": "Isso é revolução pessoal, não romance. YES QUEEN!!!!",
-                "progresso": "83%"
-                
-            },
-            "likes": "3",
-            "comments": []
-        },{
-            "tipo": "2",
-            "usuario_id": 121,
-            "livro_id": 503,
-            "data": "2023-07-31T08:02:45Z",
-            "conteudo": {
-                "texto": "Nunca tinha reparado o quão CADELO da minha mulher eu sou.",
-                "progresso": "Concluiu a leitura"
-            },
-            "likes": "5",
-            "comments": [
-                {
-                    "userId": 101,
-                    "texto": "somos."
-                },{
-                    "userId": 111,
-                    "texto": "somos."
-                },{
-                    "userId": 131,
-                    "texto": "somos."
-                }
-            ]
-        },{
-            "tipo": "2",
-            "usuario_id": 122,
-            "livro_id": 503,
-            "data": "2023-07-31T13:05:02Z",
-            "conteudo": {
-                "texto": "Ok, uau. Isso foi... embaraçoso. Cientificamente embaraçoso. Quero dizer, quem deixa os sentimentos interferirem tanto assim? Ah, espera — eu deixei. Várias vezes. E fui péssima em esconder. Enfim, vou precisar de um gráfico de dispersão e um chá de camomila pra processar isso tudo. Talvez até duas variáveis independentes: razão e sentimento. Spoiler: elas se correlacionam mais do que eu gostaria de admitir.",
-                "progresso": "Concluiu a leitura"
-            },
-            "likes": "2",
-            "comments": [
-                {
-                    "userId": 121,
-                    "texto": "Você sabe que não precisa de uma equação pra validar seus sentimentos, certo? Quer dizer, não que eu vá impedir você de tentar — porque, sinceramente, ver você diagramando a própria vida amorosa é um tipo muito específico de adorável. Mas você leu esse livro como se fosse um relatório de laboratório com erro sistemático... quando, na verdade, ele é só uma história. Nossa história. Com falhas, sim, mas com coragem também. E com mais verdade do que qualquer paper que você já escreveu. (vou fazer o chá"
-                }
-            ]
-        },{
-            "tipo": "2",
-            "usuario_id": 131,
-            "livro_id": 503,
-            "data": "2024-08-02T16:20:24Z",
-            "conteudo": {
-                "texto": "Por um tempo, eu achei que ela fosse quebrar.",
-                "progresso": "Concluiu a leitura"
-            },
-            "likes": "2",
-            "comments": []
-        },{
-            "tipo": "2",
-            "usuario_id": 132,
-            "livro_id": 503,
-            "data": "2024-07-29T16:20:24Z",
-            "conteudo": {
-                "texto": "Parece que todas nós temos essa de deixar nossas certezas escaparem né.",
-                "progresso": "Concluiu a leitura"
-            },
-            "likes": "3",
-            "comments": []
-        },{
-            "tipo": "3",
-            "usuario_id": 101,
-            "livro_id": 504,
-            "data": "2023-11-07T17:01:17Z",
-            "conteudo": {},
-            "likes": "0",
-            "comments": []
-        },{
-            "tipo": "3",
-            "usuario_id": 102,
-            "livro_id": 504,
-            "data": "2023-11-07T20:09:17Z",
-            "conteudo": {},
-            "likes": "0",
-            "comments": []
-        },{
-            "tipo": "2",
-            "usuario_id": 112,
-            "livro_id": 504,
-            "data": "2023-11-09T13:01:17Z",
-            "conteudo": {
-                "texto": "Ela conseguiu dar xeque-mate no coração de um homem que parecia invencível. Mallory, meu amor, você me destruiu e me curou na mesma jogada.",
-                "progresso": "Concluiu a leitura"
-            },
-            "likes": "0",
-            "comments": []
-        },{
-            "tipo": "3",
-            "usuario_id": 131,
-            "livro_id": 504,
-            "data": "2023-11-11T17:01:17Z",
-            "conteudo": {},
-            "likes": "0",
-            "comments": []
-        },{
-            "tipo": "3",
-            "usuario_id": 101,
-            "livro_id": 505,
-            "data": "2024-02-14T17:01:17Z",
-            "conteudo": {},
-            "likes": "0",
-            "comments": []
-        },{
-            "tipo": "1",
-            "usuario_id": 102,
-            "livro_id": 505,
-            "data": "2024-02-06T17:01:17Z",
-            "conteudo": {
-                "texto": "Então... ela é uma cientista. Ele é um alienígena. Eles se odeiam, se casam, e aí... ele cozinha pra ela?? E é gentil????",
-                "progresso": "23%"
-            },
-            "likes": "0",
-            "comments": []
-        },{
-            "tipo": "2",
-            "usuario_id": 112,
-            "livro_id": 505,
-            "data": "2024-02-14T17:01:17Z",
-            "conteudo": {
-                "texto": "Eu achei que fosse um enemies-to-lovers cósmico, mas era uma tese sobre confiança, sobre ceder o controle... e sobre como nenhum planeta — ou galáxia — tá preparado pra um homem que respeita os limites da mulher que ama. Raven é o blueprint. O protótipo. O padrão intergaláctico de masculinidade saudável.",
-                "progresso": "Concluiu a leitura"
-            },
-            "likes": "0",
-            "comments": []
-        },{
-            "tipo": "3",
-            "usuario_id": 131,
-            "livro_id": 505,
-            "data": "2024-02-17T17:01:17Z",
-            "conteudo": {},
-            "likes": "0",
-            "comments": []
-        },{
-            "tipo": "2",
-            "usuario_id": 102,
-            "livro_id": 506,
-            "data": "2024-06-13T19:17:17Z",
-            "conteudo": {
-                "texto": "Meus coelhos favoritos. Eu amo vocês, mas precisava de TANTOS detalhes?",
-                "progresso": "Concluiu a leitura"
-            },
-            "likes": "3",
-            "comments": [
-                {
-                    "userId": 131,
-                    "texto": "Precisava. Eu amei ler cada linha"
-                },{
-                    "userId": 132,
-                    "texto": "amg é nosso jeitinho."
-                }
-            ]
-        },{
-            "tipo": "1",
-            "usuario_id": 111,
-            "livro_id": 506,
-            "data": "2024-06-13T19:17:17Z",
-            "conteudo": {
-                "texto": "agora eu entendi porque a Bee insistiu tanto pra eu ler esse... amor é só pedir que eu faço",
-                "progresso": "55%"
-            },
-            "likes": "6",
-            "comments": [
-                {
-                    "userId": 112,
-                    "texto": "amor NÃO FOI POR ISSO"
-                },{
-                    "userId": 122,
-                    "texto": "visionária. vou fazer o mesmo com o Jack."
-                },{
-                    "userId": 101,
-                    "texto": "tá, por que a Olive curtiu isso e jogou o livro em mim?"
-                },{
-                    "userId": 132,
-                    "texto": "DIVA FAZ ASSIM"
-                },{
-                    "userId": 131,
-                    "texto": "pega um caderninho e aprende com o mestre"
-                },{
-                    "userId": 111,
-                    "texto": "vsf Eli"
-                }
-            ]
-        },{
-            "tipo": "2",
-            "usuario_id": 112,
-            "livro_id": 506,
-            "data": "2024-06-13T19:17:17Z",
-            "conteudo": {
-                "texto": "Ok, posso só dizer que ler sobre esses dois foi como assistir uma aula prática de Como Reprimir Sentimentos em Nível Avançado",
-                "progresso": "Concluiu a leitura"
-            },
-            "likes": "0",
-            "comments": [
-                {
-                    "userId": 132,
-                    "texto": "Você quer que eu agradeça ou me defenda?"
-                }
-            ]
-        },{
-            "tipo": "3",
-            "usuario_id": 121,
-            "livro_id": 506,
-            "data": "2024-06-13T19:17:17Z",
-            "conteudo": {},
-            "likes": "0",
-            "comments": []
-        },{
-            "tipo": "2",
-            "usuario_id": 131,
-            "livro_id": 506,
-            "data": "2024-06-13T19:17:17Z",
-            "conteudo": {
-                "texto": "A parte mais difícil foi me ler pelos olhos dela. Ela me via como ameaça.",
-                "progresso": "Concluiu a leitura"
-            },
-            "likes": "2",
-            "comments": [
-                {
-                    "userId": 111,
-                    "texto": "Você nunca levantou a voz. Só esperou. Isso é o que fez tudo funcionar."
-                }
-            ]
-        },{
-            "tipo": "2",
-            "usuario_id": 132,
-            "livro_id": 506,
-            "data": "2024-06-13T19:17:17Z",
-            "conteudo": {
-                "texto": "Fiquei nua emocionalmente na frente do capitalismo.",
-                "progresso": "Concluiu a leitura"
-            },
-            "likes": "7",
-            "comments": [
-                {
-                    "userId": 131,
-                    "texto": "Eles escreveram bem a parte em que você achava que podia me manter fora do coração e só nos lençóis. Spoiler: não conseguiu."
-                },{
-                    "userId": 132,
-                    "texto": "É. E agora isso tá impresso. Nosso inferno emocional virou ficção científica corporativa com erotismo embutido."
-                }
-            ]
-        },{
-            "tipo": "1",
-            "usuario_id": 102,
-            "livro_id": 507,
-            "data": "2025-03-13T14:53:22Z",
-            "conteudo": {
-                "texto": "Imagina o Lukas e o Adam tentando coexistir na mesma sala?",
-                "progresso": "13%"
-            },
-            "likes": "1",
-            "comments": []
-        },{
-            "tipo": "2",
-            "usuario_id": 112,
-            "livro_id": 507,
-            "data": "2025-03-21T14:53:22Z",
-            "conteudo": {
-                "texto": "A CENA DO ESTACIONAMENTOOOO",
-                "progresso": "Concluiu a leitura"
-            },
-            "likes": "3",
-            "comments": [
-                {
-                    "userId": 102,
-                    "texto": "Se eu não terminar esse livro até amanhã, me interna."
-                },{
-                    "userId": 112,
-                    "texto": "VOCÊ AINDA NÃO CHEGOU NESSA PARTE, MAS QUANDO CHEGAR— Eu te levo cookies e dou spoiler."
-                }
-            ]
-        } ,{
-            "tipo": "3",
-            "usuario_id": 131,
-            "livro_id": 507,
-            "data": "2025-03-13T14:07:22Z",
-            "conteudo": {},
-            "likes": "1",
-            "comments": []
-        } ,{
-            "tipo": "3",
-            "usuario_id": 132,
-            "livro_id": 507,
-            "data": "2025-03-13T13:53:22Z",
-            "conteudo": {},
-            "likes": "1",
-            "comments": []
-        }       
-    ]
+          "livroId": 502,
+          "categoria": [
+            "lido",
+            "favoritado"
+          ],
+          "nota": "5"
+        },
+        {
+          "livroId": 506,
+          "categoria": [
+            "quero ler"
+          ],
+          "nota": ""
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "nome": "Bee Königswasser",
+      "email": "bee@email.com",
+      "username": "beekonigswasser",
+      "senha": "beekonigswasser123",
+      "tentativas": 0,
+      "avatar": "https://i.pinimg.com/564x/bd/98/50/bd98502e3d9886fcca9493d5a059fba6.jpg",
+      "amigos": [
+        111,
+        102,
+        122,
+        132
+      ],
+      "estante": [
+        {
+          "livroId": 502,
+          "categoria": [
+            "lido",
+            "favoritado"
+          ],
+          "nota": "5"
+        },
+        {
+          "livroId": 506,
+          "categoria": [
+            "lido",
+            "favoritado"
+          ],
+          "nota": "5"
+        },
+        {
+          "livroId": 503,
+          "categoria": [
+            "lendo"
+          ],
+          "nota": ""
+        },
+        {
+          "livroId": 501,
+          "categoria": [
+            "quero ler"
+          ],
+          "nota": ""
+        },
+        {
+          "livroId": 504,
+          "categoria": [
+            "lido"
+          ],
+          "nota": "4"
+        },
+        {
+          "livroId": 505,
+          "categoria": [
+            "lido"
+          ],
+          "nota": "2.5"
+        },
+        {
+          "livroId": 507,
+          "categoria": [
+            "lido"
+          ],
+          "nota": "0.5"
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "nome": "Jack Smith-Turner",
+      "email": "jack@email.com",
+      "username": "jacksmithturner",
+      "senha": "jacksmithturner123",
+      "tentativas": 0,
+      "avatar": "https://i.pinimg.com/736x/1a/73/b7/1a73b7e23b04af894a6e475858c25c9a.jpg",
+      "amigos": [
+        122,
+        101,
+        102,
+        111,
+        112,
+        131,
+        132
+      ],
+      "estante": [
+        {
+          "livroId": 503,
+          "categoria": [
+            "lido",
+            "favoritado"
+          ],
+          "nota": "5"
+        },
+        {
+          "livroId": 502,
+          "categoria": [
+            "quero ler"
+          ],
+          "nota": ""
+        },
+        {
+          "livroId": 501,
+          "categoria": [
+            "quero ler"
+          ],
+          "nota": ""
+        },
+        {
+          "livroId": 506,
+          "categoria": [
+            "lendo"
+          ],
+          "nota": ""
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "nome": "Elsie Hannaway",
+      "email": "elsie@email.com",
+      "username": "elsiehannaway",
+      "senha": "elsiehannaway123",
+      "tentativas": 0,
+      "avatar": "https://i.pinimg.com/564x/94/c2/99/94c2990b0fe9d81740a4f9b0459beda7.jpg",
+      "amigos": [
+        121,
+        102,
+        112,
+        132
+      ],
+      "estante": [
+        {
+          "livroId": 503,
+          "categoria": [
+            "lido",
+            "favoritado"
+          ],
+          "nota": "5"
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "nome": "Eli Killgore",
+      "email": "eli@email.com",
+      "username": "elikillgore",
+      "senha": "elikillgore123",
+      "tentativas": 0,
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSIlJgVrEC3nfNgiV8XkPC138uL1cm51lthw&s",
+      "amigos": [
+        132,
+        121
+      ],
+      "estante": [
+        {
+          "livroId": 506,
+          "categoria": [
+            "lido",
+            "favoritado"
+          ],
+          "nota": "4"
+        },
+        {
+          "livroId": 503,
+          "categoria": [
+            "lido"
+          ],
+          "nota": "4.5"
+        },
+        {
+          "livroId": 504,
+          "categoria": [
+            "abandonado"
+          ],
+          "nota": ""
+        },
+        {
+          "livroId": 505,
+          "categoria": [
+            "abandonado"
+          ],
+          "nota": ""
+        },
+        {
+          "livroId": 507,
+          "categoria": [
+            "abandonado"
+          ],
+          "nota": ""
+        },
+        {
+          "livroId": 501,
+          "categoria": [
+            "quero ler"
+          ],
+          "nota": ""
+        },
+        {
+          "livroId": 502,
+          "categoria": [
+            "lendo"
+          ],
+          "nota": ""
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "nome": "Rue Siebert",
+      "email": "rue@email.com",
+      "username": "ruesiebert",
+      "senha": "ruesiebert123",
+      "tentativas": 0,
+      "avatar": "https://i.pinimg.com/736x/a8/a2/9a/a8a29a7063aa900bcd943d9194c4d835.jpg",
+      "amigos": [
+        131,
+        102,
+        112,
+        122
+      ],
+      "estante": [
+        {
+          "livroId": 506,
+          "categoria": [
+            "lido",
+            "favoritado"
+          ],
+          "nota": "1"
+        },
+        {
+          "livroId": 503,
+          "categoria": [
+            "lido"
+          ],
+          "nota": "4.5"
+        },
+        {
+          "livroId": 501,
+          "categoria": [
+            "lido"
+          ],
+          "nota": "4.5"
+        },
+        {
+          "livroId": 502,
+          "categoria": [
+            "lido"
+          ],
+          "nota": "5"
+        },
+        {
+          "livroId": 507,
+          "categoria": [
+            "quero ler"
+          ],
+          "nota": ""
+        }
+      ]
+    },
+    {
+      "id": "141",
+      "nome": "Lukas Blomqvist",
+      "username": "lukasblomqvist",
+      "email": "lukas@email.com",
+      "senha": "lukasblomqvist123",
+      "tentativas": 0,
+      "avatar": "",
+      "amigos": [],
+      "estante": []
+    },
+    {
+      "id": "2000",
+      "nome": "Talytha Lopes",
+      "username": "talythalopes",
+      "email": "talytha.lps@gmail.com",
+      "senha": "talythalps",
+      "tentativas": 0,
+      "avatar": "",
+      "amigos": [],
+      "estante": []
+    }
+  ],
+  "books": [
+    {
+      "id": "501",
+      "titulo": "A Hipótese do Amor",
+      "autor": "Ali Hazelwood",
+      "capa": "https://m.media-amazon.com/images/I/81LTEfXYgcL.jpg",
+      "sinopse": "Quando um relacionamento falso entre cientistas encontra a irresistível força da atração, as teorias de uma mulher sobre o amor, cuidadosamente calculadas, são postas à prova. Olive Smith, uma estudante de doutoramento em Biologia, não acredita em namoros duradouros.",
+      "nota": "4.4",
+      "ano": "2022",
+      "isbn": "978-9899096424",
+      "qtdPaginas": "344"
+    },
+    {
+      "id": "502",
+      "titulo": "A Razão do Amor",
+      "autor": "Ali Hazelwood",
+      "capa": "https://m.media-amazon.com/images/I/81bkmJnflPL.jpg",
+      "sinopse": "No novo livro da autora best-seller de A hipótese de amor , uma cientista será obrigada a colaborar com seu rival em um projeto de proporções interestelares, e os resultados prometem ser explosivos.",
+      "nota": "4.2",
+      "ano": "2022",
+      "isbn": "978-6555653991",
+      "qtdPaginas": "336"
+    },
+    {
+      "id": "503",
+      "titulo": "Amor, teoricamente",
+      "autor": "Ali Hazelwood",
+      "capa": "https://m.media-amazon.com/images/I/81vNIEwyS9L._AC_UF1000,1000_QL80_DpWeblab_.jpg",
+      "sinopse": "Dois físicos rivais colidem em meio a um turbilhão de disputas acadêmicas e caóticos namoros de mentira nesta nova comédia romântica da autora de A hipótese do amor. Elsie Hannaway é uma física teórica que passou anos de sua vida moldando diferentes versões de si mesma. Em alguns dias, ela trabalha como professora adjunta, na esperança de conseguir um emprego melhor. Em outros, compensa seu ridículo salário oferecendo serviços de namorada de mentira, aproveitando sua habilidade de se adaptar exatamente ao que os outros querem dela. Apesar das dificuldades, ela consegue equilibrar bem seu cuidadoso “Elsie-verso”... até que ele começa a desabar. E o culpado é Jack Smith, o irritante e atraente irmão mais velho de seu cliente favorito, que acaba se revelando um importante físico experimental e um possível obstáculo para o emprego dos sonhos de Elsie. Ela está pronta para uma guerra declarada de sabotagens acadêmicas, mas não está nem um pouco preparada para aqueles olhares demorados e penetrantes. E logo ela percebe que não precisa fingir ser outra pessoa quando está com Jack. Será que ser atraída pela órbita de um cientista vai enfim fazê-la colocar em prática suas mais secretas teorias sobre o amor? ",
+      "nota": "4.2",
+      "ano": "2023",
+      "isbn": "978-1408725795",
+      "qtdPaginas": "384"
+    },
+    {
+      "id": "504",
+      "titulo": "Xeque-mate",
+      "autor": "Ali Hazelwood",
+      "capa": "https://m.media-amazon.com/images/I/81O6eWVPaiL.jpg",
+      "sinopse": "Mallory Greenleaf não quer mais saber de xadrez. Desde que abandonou o esporte há quatro anos, se preocupa apenas em manter o emprego medíocre numa oficina mecânica para conseguir cuidar da mãe doente e das irmãs mais novas. Tudo muda quando ela se obriga a participar de um torneio beneficente e, sem querer, derrota o atual campeão mundial, Nolan Sawyer.",
+      "nota": "4.1",
+      "ano": "2023",
+      "isbn": "978-6555655742",
+      "qtdPaginas": "336"
+    },
+    {
+      "id": "505",
+      "titulo": "Noiva",
+      "autor": "Ali Hazelwood",
+      "capa": "https://m.media-amazon.com/images/I/812RDxFDd8L._AC_UF1000,1000_QL80_DpWeblab_.jpg",
+      "sinopse": "Misery Lark, filha do vampiro mais poderoso do sudoeste, nunca foi bem-vista pelos seres de sua espécie. Ela passa seus dias anonimamente em meio aos humanos, isolada, até que é chamada para firmar um acordo de paz entre vampiros e licanos, seus inimigos mortais. Para isso, será obrigada a se casar com Lowe Moreland.",
+      "nota": "4.2",
+      "ano": "2024",
+      "isbn": "978-6555656039",
+      "qtdPaginas": "368"
+    },
+    {
+      "id": "506",
+      "titulo": "Não é amor",
+      "autor": "Ali Hazelwood",
+      "capa": "https://m.media-amazon.com/images/I/71i-HM1ZrlL.jpg",
+      "sinopse": "Neste romance secreto e proibido, Ali Hazelwood prova que, no amor e na ciência, vale tudo. A vida de Rue Siebert não é perfeita, mas ela tem alguns poucos amigos leais e uma carreira de sucesso como engenheira de biotecnologia na Kline, uma das mais promissoras startups no campo da ciência dos alimentos.",
+      "nota": "3.9",
+      "ano": "2024",
+      "isbn": "978-6555656480",
+      "qtdPaginas": "368"
+    },
+    {
+      "id": "507",
+      "titulo": "No Fundo é Amor",
+      "autor": "Ali Hazelwood",
+      "capa": "https://m.media-amazon.com/images/I/81XvsucSLVL._AC_UF1000,1000_QL80_DpWeblab_.jpg",
+      "sinopse": "Scarlett Vandermeer está nadando contra a corrente, tentando equilibrar os estudos com a rotina de atleta. Concentrada em passar para a faculdade de medicina e se recuperar da lesão que quase deu fim à sua carreira nos saltos ornamentais, ela prefere levar uma vida discreta. Não tem tempo para relacionamentos. Ou pelo menos é o que diz para si mesma. Garoto de ouro da natação, Lukas Blomqvist é capitão da equipe da universidade e campeão mundial, e conquistou tudo isso com muita disciplina. É assim que ele consegue medalhas e quebra recordes: com foco total a cada braçada. Na superfície, Lukas e Scarlett não têm nada em comum. Até que um segredo vem à tona, e tudo muda.",
+      "nota": "4.1",
+      "ano": "2025",
+      "isbn": "978-6555657593",
+      "qtdPaginas": "464"
+    }
+  ],
+  "timeline": [
+    {
+      "tipo": "2",
+      "usuario_id": 101,
+      "livro_id": 501,
+      "data": "2022-04-13T08:30:00Z",
+      "conteudo": {
+        "texto": "Faria tudo de novo.",
+        "progresso": "Concluiu a leitura"
+      },
+      "likes": "3",
+      "comments": [
+        {
+          "userId": 102,
+          "texto": "tudo TUDO?"
+        }
+      ],
+      "id": "8585"
+    },
+    {
+      "tipo": "2",
+      "usuario_id": 102,
+      "livro_id": 501,
+      "data": "2022-04-13T15:30:00Z",
+      "conteudo": {
+        "texto": "Que protagonista burra (autocrítica).",
+        "progresso": "Concluiu a leitura"
+      },
+      "likes": "1",
+      "comments": [
+        {
+          "userId": 101,
+          "texto": "Você fala isso pela lerdeza, por usar lentes de contato vencida ou por gostar ela de uma bebida de abóbora?"
+        },
+        {
+          "userId": 132,
+          "texto": "Amg, cê foi mesmo que raiva de vocE (com amor)"
+        }
+      ],
+      "id": "f59f"
+    },
+    {
+      "tipo": "2",
+      "usuario_id": 132,
+      "livro_id": 501,
+      "data": "2024-12-25T00:42:24Z",
+      "conteudo": {
+        "texto": "O Adam precisa urgentemente de amigos melhores.",
+        "progresso": "Concluiu a leitura"
+      },
+      "likes": "5",
+      "comments": [
+        {
+          "userId": 101,
+          "texto": "Pior que é"
+        },
+        {
+          "userId": 102,
+          "texto": "SIM SIM SIM SIM SIM"
+        }
+      ],
+      "id": "adb5"
+    },
+    {
+      "tipo": "3",
+      "usuario_id": 112,
+      "livro_id": 501,
+      "data": "2022-08-23T18:18:18Z",
+      "conteudo": {},
+      "likes": "1",
+      "comments": [],
+      "id": "34ed"
+    },
+    {
+      "tipo": "3",
+      "usuario_id": 121,
+      "livro_id": 501,
+      "data": "2023-07-31T12:40:24Z",
+      "conteudo": {},
+      "likes": "0",
+      "comments": [],
+      "id": "e010"
+    },
+    {
+      "tipo": "3",
+      "usuario_id": 131,
+      "livro_id": 501,
+      "data": "2024-06-13T20:02:22Z",
+      "conteudo": {},
+      "likes": "1",
+      "comments": [],
+      "id": "cf77"
+    },
+    {
+      "tipo": "2",
+      "usuario_id": 101,
+      "livro_id": 502,
+      "data": "2022-08-30T22:20:24Z",
+      "conteudo": {
+        "texto": "Será que a Bee tá bem ou ela desmaiou.",
+        "progresso": "Concluiu a leitura"
+      },
+      "likes": "1",
+      "comments": [
+        {
+          "userId": 112,
+          "texto": "haha adam, haha"
+        }
+      ],
+      "id": "85ca"
+    },
+    {
+      "tipo": "2",
+      "usuario_id": 111,
+      "livro_id": 502,
+      "data": "2022-08-23T12:37:24Z",
+      "conteudo": {
+        "texto": "O melhor livro já escrito no mundo e quem discorda é invejoso.",
+        "progresso": "Concluiu a leitura"
+      },
+      "likes": "3",
+      "comments": [
+        {
+          "userId": 112,
+          "texto": "sz"
+        },
+        {
+          "userId": 132,
+          "texto": "UM HOMEM APAIXONADO MEUS AMIGOS"
+        }
+      ],
+      "id": "7639"
+    },
+    {
+      "tipo": "2",
+      "usuario_id": 112,
+      "livro_id": 502,
+      "data": "2022-08-23T23:37:24Z",
+      "conteudo": {
+        "texto": "Foi tão patética a cena do donuts vegano mds como pode.",
+        "progresso": "Concluiu a leitura"
+      },
+      "likes": "1",
+      "comments": [
+        {
+          "userId": 111,
+          "texto": "amor..."
+        },
+        {
+          "userId": 132,
+          "texto": "eu ri muito amg foi perfeita eu imagino a sua cara de odio kajskajskjas"
+        },
+        {
+          "userId": 121,
+          "texto": "SEM SPOILER"
+        },
+        {
+          "userId": 102,
+          "texto": "preciso ler urgentemente"
+        }
+      ],
+      "id": "15c7"
+    },
+    {
+      "tipo": "3",
+      "usuario_id": 121,
+      "livro_id": 502,
+      "data": "2023-08-30T17:01:17Z",
+      "conteudo": {},
+      "likes": "0",
+      "comments": [],
+      "id": "6de9"
+    },
+    {
+      "tipo": "1",
+      "usuario_id": 131,
+      "livro_id": 502,
+      "data": "2024-06-28T16:20:24Z",
+      "conteudo": {
+        "texto": "Lendo porque a Rue adora ese aqui.",
+        "progresso": "2%"
+      },
+      "likes": "3",
+      "comments": [],
+      "id": "59dc"
+    },
+    {
+      "tipo": "2",
+      "usuario_id": 132,
+      "livro_id": 502,
+      "data": "2024-06-28T02:37:24Z",
+      "conteudo": {
+        "texto": "O cuidado do Levi com a Bee é A COISA MAIS LINDA DO MUNDO.",
+        "progresso": "Concluiu a leitura"
+      },
+      "likes": "1",
+      "comments": [
+        {
+          "userId": 121,
+          "texto": "QUANTO SPOILEEER"
+        },
+        {
+          "userId": 102,
+          "texto": "PRECISO LER URGENTEMENTE!!!"
+        }
+      ],
+      "id": "1e64"
+    },
+    {
+      "tipo": "2",
+      "usuario_id": 102,
+      "livro_id": 503,
+      "data": "2023-08-28T20:20:24Z",
+      "conteudo": {
+        "texto": "Elsie tentando fingir que sentimentos seguem leis da física? Amiga, eu tentei o mesmo com biologia. Spoiler: não funciona.",
+        "progresso": "Concluiu a leitura"
+      },
+      "likes": "3",
+      "comments": [],
+      "id": "f0f4"
+    },
+    {
+      "tipo": "1",
+      "usuario_id": 112,
+      "livro_id": 503,
+      "data": "2023-08-31T22:20:24Z",
+      "conteudo": {
+        "texto": "Alguém precisa avisar a Elsie que você pode ser racional e ainda assim merecer ser amada. A ciência não exclui o afeto.",
+        "progresso": "37%"
+      },
+      "likes": "3",
+      "comments": [],
+      "id": "0217"
+    },
+    {
+      "tipo": "1",
+      "usuario_id": 112,
+      "livro_id": 503,
+      "data": "2023-09-01T01:47:24Z",
+      "conteudo": {
+        "texto": "Isso é revolução pessoal, não romance. YES QUEEN!!!!",
+        "progresso": "83%"
+      },
+      "likes": "3",
+      "comments": [],
+      "id": "21b3"
+    },
+    {
+      "tipo": "2",
+      "usuario_id": 121,
+      "livro_id": 503,
+      "data": "2023-07-31T08:02:45Z",
+      "conteudo": {
+        "texto": "Nunca tinha reparado o quão CADELO da minha mulher eu sou.",
+        "progresso": "Concluiu a leitura"
+      },
+      "likes": "5",
+      "comments": [
+        {
+          "userId": 101,
+          "texto": "somos."
+        },
+        {
+          "userId": 111,
+          "texto": "somos."
+        },
+        {
+          "userId": 131,
+          "texto": "somos."
+        }
+      ],
+      "id": "3381"
+    },
+    {
+      "tipo": "2",
+      "usuario_id": 122,
+      "livro_id": 503,
+      "data": "2023-07-31T13:05:02Z",
+      "conteudo": {
+        "texto": "Ok, uau. Isso foi... embaraçoso. Cientificamente embaraçoso. Quero dizer, quem deixa os sentimentos interferirem tanto assim? Ah, espera — eu deixei. Várias vezes. E fui péssima em esconder. Enfim, vou precisar de um gráfico de dispersão e um chá de camomila pra processar isso tudo. Talvez até duas variáveis independentes: razão e sentimento. Spoiler: elas se correlacionam mais do que eu gostaria de admitir.",
+        "progresso": "Concluiu a leitura"
+      },
+      "likes": "2",
+      "comments": [
+        {
+          "userId": 121,
+          "texto": "Você sabe que não precisa de uma equação pra validar seus sentimentos, certo? Quer dizer, não que eu vá impedir você de tentar — porque, sinceramente, ver você diagramando a própria vida amorosa é um tipo muito específico de adorável. Mas você leu esse livro como se fosse um relatório de laboratório com erro sistemático... quando, na verdade, ele é só uma história. Nossa história. Com falhas, sim, mas com coragem também. E com mais verdade do que qualquer paper que você já escreveu. (vou fazer o chá"
+        }
+      ],
+      "id": "f32a"
+    },
+    {
+      "tipo": "2",
+      "usuario_id": 131,
+      "livro_id": 503,
+      "data": "2024-08-02T16:20:24Z",
+      "conteudo": {
+        "texto": "Por um tempo, eu achei que ela fosse quebrar.",
+        "progresso": "Concluiu a leitura"
+      },
+      "likes": "2",
+      "comments": [],
+      "id": "1f32"
+    },
+    {
+      "tipo": "2",
+      "usuario_id": 132,
+      "livro_id": 503,
+      "data": "2024-07-29T16:20:24Z",
+      "conteudo": {
+        "texto": "Parece que todas nós temos essa de deixar nossas certezas escaparem né.",
+        "progresso": "Concluiu a leitura"
+      },
+      "likes": "3",
+      "comments": [],
+      "id": "580e"
+    },
+    {
+      "tipo": "3",
+      "usuario_id": 101,
+      "livro_id": 504,
+      "data": "2023-11-07T17:01:17Z",
+      "conteudo": {},
+      "likes": "0",
+      "comments": [],
+      "id": "331a"
+    },
+    {
+      "tipo": "3",
+      "usuario_id": 102,
+      "livro_id": 504,
+      "data": "2023-11-07T20:09:17Z",
+      "conteudo": {},
+      "likes": "0",
+      "comments": [],
+      "id": "9e95"
+    },
+    {
+      "tipo": "2",
+      "usuario_id": 112,
+      "livro_id": 504,
+      "data": "2023-11-09T13:01:17Z",
+      "conteudo": {
+        "texto": "Ela conseguiu dar xeque-mate no coração de um homem que parecia invencível. Mallory, meu amor, você me destruiu e me curou na mesma jogada.",
+        "progresso": "Concluiu a leitura"
+      },
+      "likes": "0",
+      "comments": [],
+      "id": "c2a3"
+    },
+    {
+      "tipo": "3",
+      "usuario_id": 131,
+      "livro_id": 504,
+      "data": "2023-11-11T17:01:17Z",
+      "conteudo": {},
+      "likes": "0",
+      "comments": [],
+      "id": "6a08"
+    },
+    {
+      "tipo": "3",
+      "usuario_id": 101,
+      "livro_id": 505,
+      "data": "2024-02-14T17:01:17Z",
+      "conteudo": {},
+      "likes": "0",
+      "comments": [],
+      "id": "c9ce"
+    },
+    {
+      "tipo": "1",
+      "usuario_id": 102,
+      "livro_id": 505,
+      "data": "2024-02-06T17:01:17Z",
+      "conteudo": {
+        "texto": "Então... ela é uma cientista. Ele é um alienígena. Eles se odeiam, se casam, e aí... ele cozinha pra ela?? E é gentil????",
+        "progresso": "23%"
+      },
+      "likes": "0",
+      "comments": [],
+      "id": "7749"
+    },
+    {
+      "tipo": "2",
+      "usuario_id": 112,
+      "livro_id": 505,
+      "data": "2024-02-14T17:01:17Z",
+      "conteudo": {
+        "texto": "Eu achei que fosse um enemies-to-lovers cósmico, mas era uma tese sobre confiança, sobre ceder o controle... e sobre como nenhum planeta — ou galáxia — tá preparado pra um homem que respeita os limites da mulher que ama. Raven é o blueprint. O protótipo. O padrão intergaláctico de masculinidade saudável.",
+        "progresso": "Concluiu a leitura"
+      },
+      "likes": "0",
+      "comments": [],
+      "id": "611e"
+    },
+    {
+      "tipo": "3",
+      "usuario_id": 131,
+      "livro_id": 505,
+      "data": "2024-02-17T17:01:17Z",
+      "conteudo": {},
+      "likes": "0",
+      "comments": [],
+      "id": "163d"
+    },
+    {
+      "tipo": "2",
+      "usuario_id": 102,
+      "livro_id": 506,
+      "data": "2024-06-13T19:17:17Z",
+      "conteudo": {
+        "texto": "Meus coelhos favoritos. Eu amo vocês, mas precisava de TANTOS detalhes?",
+        "progresso": "Concluiu a leitura"
+      },
+      "likes": "3",
+      "comments": [
+        {
+          "userId": 131,
+          "texto": "Precisava. Eu amei ler cada linha"
+        },
+        {
+          "userId": 132,
+          "texto": "amg é nosso jeitinho."
+        }
+      ],
+      "id": "aaab"
+    },
+    {
+      "tipo": "1",
+      "usuario_id": 111,
+      "livro_id": 506,
+      "data": "2024-06-13T19:17:17Z",
+      "conteudo": {
+        "texto": "agora eu entendi porque a Bee insistiu tanto pra eu ler esse... amor é só pedir que eu faço",
+        "progresso": "55%"
+      },
+      "likes": "6",
+      "comments": [
+        {
+          "userId": 112,
+          "texto": "amor NÃO FOI POR ISSO"
+        },
+        {
+          "userId": 122,
+          "texto": "visionária. vou fazer o mesmo com o Jack."
+        },
+        {
+          "userId": 101,
+          "texto": "tá, por que a Olive curtiu isso e jogou o livro em mim?"
+        },
+        {
+          "userId": 132,
+          "texto": "DIVA FAZ ASSIM"
+        },
+        {
+          "userId": 131,
+          "texto": "pega um caderninho e aprende com o mestre"
+        },
+        {
+          "userId": 111,
+          "texto": "vsf Eli"
+        }
+      ],
+      "id": "91cf"
+    },
+    {
+      "tipo": "2",
+      "usuario_id": 112,
+      "livro_id": 506,
+      "data": "2024-06-13T19:17:17Z",
+      "conteudo": {
+        "texto": "Ok, posso só dizer que ler sobre esses dois foi como assistir uma aula prática de Como Reprimir Sentimentos em Nível Avançado",
+        "progresso": "Concluiu a leitura"
+      },
+      "likes": "0",
+      "comments": [
+        {
+          "userId": 132,
+          "texto": "Você quer que eu agradeça ou me defenda?"
+        }
+      ],
+      "id": "216f"
+    },
+    {
+      "tipo": "3",
+      "usuario_id": 121,
+      "livro_id": 506,
+      "data": "2024-06-13T19:17:17Z",
+      "conteudo": {},
+      "likes": "0",
+      "comments": [],
+      "id": "677b"
+    },
+    {
+      "tipo": "2",
+      "usuario_id": 131,
+      "livro_id": 506,
+      "data": "2024-06-13T19:17:17Z",
+      "conteudo": {
+        "texto": "A parte mais difícil foi me ler pelos olhos dela. Ela me via como ameaça.",
+        "progresso": "Concluiu a leitura"
+      },
+      "likes": "2",
+      "comments": [
+        {
+          "userId": 111,
+          "texto": "Você nunca levantou a voz. Só esperou. Isso é o que fez tudo funcionar."
+        }
+      ],
+      "id": "91a5"
+    },
+    {
+      "tipo": "2",
+      "usuario_id": 132,
+      "livro_id": 506,
+      "data": "2024-06-13T19:17:17Z",
+      "conteudo": {
+        "texto": "Fiquei nua emocionalmente na frente do capitalismo.",
+        "progresso": "Concluiu a leitura"
+      },
+      "likes": "7",
+      "comments": [
+        {
+          "userId": 131,
+          "texto": "Eles escreveram bem a parte em que você achava que podia me manter fora do coração e só nos lençóis. Spoiler: não conseguiu."
+        },
+        {
+          "userId": 132,
+          "texto": "É. E agora isso tá impresso. Nosso inferno emocional virou ficção científica corporativa com erotismo embutido."
+        }
+      ],
+      "id": "c04d"
+    },
+    {
+      "tipo": "1",
+      "usuario_id": 102,
+      "livro_id": 507,
+      "data": "2025-03-13T14:53:22Z",
+      "conteudo": {
+        "texto": "Imagina o Lukas e o Adam tentando coexistir na mesma sala?",
+        "progresso": "13%"
+      },
+      "likes": "1",
+      "comments": [],
+      "id": "a04e"
+    },
+    {
+      "tipo": "2",
+      "usuario_id": 112,
+      "livro_id": 507,
+      "data": "2025-03-21T14:53:22Z",
+      "conteudo": {
+        "texto": "A CENA DO ESTACIONAMENTOOOO",
+        "progresso": "Concluiu a leitura"
+      },
+      "likes": "3",
+      "comments": [
+        {
+          "userId": 102,
+          "texto": "Se eu não terminar esse livro até amanhã, me interna."
+        },
+        {
+          "userId": 112,
+          "texto": "VOCÊ AINDA NÃO CHEGOU NESSA PARTE, MAS QUANDO CHEGAR— Eu te levo cookies e dou spoiler."
+        }
+      ],
+      "id": "0bcb"
+    },
+    {
+      "tipo": "3",
+      "usuario_id": 131,
+      "livro_id": 507,
+      "data": "2025-03-13T14:07:22Z",
+      "conteudo": {},
+      "likes": "1",
+      "comments": [],
+      "id": "6f41"
+    },
+    {
+      "tipo": "3",
+      "usuario_id": 132,
+      "livro_id": 507,
+      "data": "2025-03-13T13:53:22Z",
+      "conteudo": {},
+      "likes": "1",
+      "comments": [],
+      "id": "6f1b"
+    }
+  ]
 }

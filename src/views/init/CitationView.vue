@@ -3,7 +3,7 @@
         <div class="page-container">
             <Logo />
             <div class="citation-container d-flex justify-center">
-                <img src="@/assets/quote.png" alt="Aspas" class="aspas" />
+                <img src="@/assets/images/quote.png" alt="Aspas" class="aspas" />
                 <div class="quote-container">
                     <blockquote>{{ randomQuote.text }}</blockquote>
                     <cite>{{ randomQuote.author }}</cite>
@@ -22,7 +22,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
-import Logo from '@/components/Logo.vue'
+import Logo from '../../components/Logo.vue'
 
 const randomQuote = ref({ text: '', author: '' })
 
@@ -99,13 +99,13 @@ onMounted(async () => {
 blockquote {
   font-size: 1.4rem;
   font-style: italic;
-  color: #cecece;
+  color: #ffeeee;
 }
 
 cite {
   font-size: 1rem;
   display: inline-block;
   margin-top: 1rem;
-  color: #c2c2c2;
+  color: #ffeeee;
 }
 </style>
