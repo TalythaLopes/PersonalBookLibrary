@@ -13,8 +13,6 @@ A **Book Library** é uma aplicação web desenvolvida em **Vue 3 + TypeScript**
 
 O projeto está **em andamento** e é, principalmente, um **exercício prático de aprendizado em Vue**. Atualmente, não há backend real — os dados são simulados com **JSON Server**. Apesar disso, já conta com funcionalidades interativas que demonstram preocupações tanto técnicas quanto de experiência do usuário.  
 
----
-
 ## Sumário
 - [Resumo](#resumo)
 - [Funcionalidades](#funcionalidades)
@@ -31,16 +29,12 @@ O projeto está **em andamento** e é, principalmente, um **exercício prático 
 - [Ideias Futuras](#ideias-futuras)
 - [Mais sobre o Projeto](#mais-sobre-o-projeto)
 
----
-
 ## Funcionalidades
 Entre as funcionalidades já implementadas, destacam-se:
 - **Autenticação simulada**: login e cadastro de usuário sem backend real  
 - **Recuperação de senha via EmailJS**, com envio de código de verificação por email  
 - **Banco de dados** simulados com **JSON Server**  
 - **Interface responsiva e componentizada** com **Vuetify**  
-
----
 
 ## Demonstração
 
@@ -89,8 +83,6 @@ A parte inferior conta com uma **barra de navegação no estilo mobile app**, le
   <img width="70%" alt="BookLibrary-Search" src="https://github.com/user-attachments/assets/35d7c084-7071-41b1-8623-7631baf10507" /> 
 </p>
 
----
-
 ## Tecnologias
 <p align="center">
   <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="Vue.js"/></a>
@@ -109,8 +101,6 @@ A escolha das tecnologias foi motivada pelo **aprendizado prático** em Vue 3 e 
 </p>
 
 O **Pinia** será adotado como gerenciador de estado global, auxiliando na **organização do código** e na **compartilhação de dados entre componentes**.
-
----
 
 ## Executando o projeto
 ### Instalação
@@ -142,8 +132,6 @@ Este projeto ainda está no início e há várias melhorias planejadas para as p
 - Criar um processo para que **autores possam solicitar verificação**  
 - Adicionar uma **caixa de sugestões** para feedback direto com a Book Library
 - Evoluir para um **backend real** (Node.js, NestJS ou outra tecnologia)
-
----
 
 ## Mais sobre o Projeto
 A **Book Library** é um projeto piloto de uma rede social literária que eu, enquanto leitora e participante ativa da comunidade, gostaria que existisse. Ele foi pensado e estruturado sob a perspectiva de uma **consumidora final**, o que resulta em uma aplicação que busca ser **útil, intuitiva e prazerosa de usar**.  Trata-se de uma aplicação que cresce junto comigo: enquanto aprendo novas tecnologias, testo ideias que imagino em uma plataforma real de leitores. A atenção aos detalhes de **navegação**, **estética** e **experiência do usuário** está presente em cada escolha, refletindo o cuidado em criar não apenas uma ferramenta funcional, mas também um ambiente agradável e inspirador.  
