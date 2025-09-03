@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/desenvolvido%20por-Talytha%20Lopes-white" />
-  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-white" />
+  <img src="https://img.shields.io/badge/desenvolvido%20por-Talytha%20Lopes-7a0017" />
+  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-FFEEEE" />
   <img src="https://img.shields.io/github/last-commit/TalythaLopes/PersonalBookLibrary" />
 </p>
 
@@ -85,19 +85,19 @@ A parte inferior conta com uma **barra de navegação no estilo mobile app**, le
 
 ## Tecnologias
 <p align="center">
-  <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="Vue.js"/></a>
-  <a href="https://vuetifyjs.com/"><img src="https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=white" alt="Vuetify"/></a>
-  <a href="https://router.vuejs.org/"><img src="https://img.shields.io/badge/Vue%20Router-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue Router"/></a>
-  <a href="https://axios-http.com/"><img src="https://img.shields.io/badge/Axios-671ddf?style=for-the-badge&logo=axios&logoColor=white" alt="Axios"/></a>
-  <a href="https://www.emailjs.com/docs/"><img src="https://img.shields.io/badge/EmailJS-1A1A1A?style=for-the-badge&logo=gmail&logoColor=white" alt="EmailJS"/></a>
-  <a href="https://github.com/typicode/json-server"><img src="https://img.shields.io/badge/JSON%20Server-000000?style=for-the-badge&logo=json&logoColor=white" alt="JSON Server"/></a>
+  <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/Vue.js-3B4E63?style=for-the-badge&logo=vuedotjs&logoColor=46BA86" alt="Vue.js"/></a>
+  <a href="https://vuetifyjs.com/"><img src="https://img.shields.io/badge/Vuetify-1697F6?style=for-the-badge&logo=vuetify&logoColor=white" alt="Vuetify"/></a>
+  <a href="https://router.vuejs.org/"><img src="https://img.shields.io/badge/Vue%20Router-46BA86?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue Router"/></a>
+  <a href="https://axios-http.com/"><img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt="Axios"/></a>
+  <a href="https://www.emailjs.com/docs/"><img src="https://img.shields.io/badge/EmailJS-FF8434?style=for-the-badge&logo=gmail&logoColor=white" alt="EmailJS"/></a>
+  <a href="https://github.com/typicode/json-server"><img src="https://img.shields.io/badge/JSON%20Server-CB0000?style=for-the-badge&logo=json&logoColor=white" alt="JSON Server"/></a>
 </p>
 
 A escolha das tecnologias foi motivada pelo **aprendizado prático** em Vue 3 e seu ecossistema. Além de aplicar conceitos técnicos, o projeto também explora **boas práticas de desenvolvimento front-end**.
 
 ### Futuro
 <p align="center">
-  <a href="https://pinia.vuejs.org/"><img src="https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=vue.js&logoColor=35495E" alt="Pinia"/></a>
+  <a href="https://pinia.vuejs.org/"><img src="https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=vue.js&logoColor=333429" alt="Pinia"/></a>
 </p>
 
 O **Pinia** será adotado como gerenciador de estado global, auxiliando na **organização do código** e na **compartilhação de dados entre componentes**.
